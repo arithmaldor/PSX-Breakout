@@ -1,11 +1,11 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
     (drawings 20)
     (tracks 289)
     (zones 0)
-    (modules 28)
+    (modules 30)
     (nets 32)
   )
 
@@ -161,6 +161,38 @@
     (add_net RED_OUT)
     (add_net RIGHT)
     (add_net VGA_SYNC_OUT)
+  )
+
+  (module PSX_BREAKOUT:Case_BTM (layer F.Cu) (tedit 5CFD0485) (tstamp 5CFD5815)
+    (at 140 93.98)
+    (fp_text reference BTM (at 0.0762 2.0066) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Case_BTM (at 0 -1.7272) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 0.0254) (layer Dwgs.User) (width 0.12))
+    (model ${KIPRJMOD}/PSX_BREAKOUT.Pretty/Case_BTM.step
+      (offset (xyz 0 0 -5.84))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PSX_BREAKOUT:Case_TOP (layer F.Cu) (tedit 5CFD0485) (tstamp 5CFD57FC)
+    (at 140 93.98)
+    (fp_text reference TOP (at 0.0762 2.0066) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Case_TOP (at 0 -1.7272) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 0.0254) (layer Dwgs.User) (width 0.12))
+    (model ${KIPRJMOD}/PSX_BREAKOUT.Pretty/Case_TOP.step
+      (offset (xyz 0 0 12))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm (layer F.Cu) (tedit 5CF75721) (tstamp 5CF75D4C)
