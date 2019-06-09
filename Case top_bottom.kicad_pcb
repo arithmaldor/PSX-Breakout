@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Gerbers/"))
+      (outputdirectory "Gerbers/Case/"))
   )
 
   (net 0 "")
@@ -693,8 +693,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 147.9735 99.26) (end 147.9735 111.76) (layer Edge.Cuts) (width 0.05) (tstamp 5CFC580C))
-  (gr_line (start 189.954 99.26) (end 147.9735 99.26) (layer Edge.Cuts) (width 0.05) (tstamp 5CFC57A6))
+  (gr_line (start 147.9735 97.26) (end 147.9735 111.76) (layer Edge.Cuts) (width 0.05) (tstamp 5CFC580C))
+  (gr_line (start 189.954 97.26) (end 147.9735 97.26) (layer Edge.Cuts) (width 0.05) (tstamp 5CFC57A6))
   (gr_line (start 132.461 40.64) (end 107.95 40.64) (layer Edge.Cuts) (width 0.05) (tstamp 5CFA92C9))
   (gr_line (start 132.461 40.64) (end 165.735 40.64) (layer Edge.Cuts) (width 0.05) (tstamp 5CFA92C8))
   (gr_line (start 165.735 40.64) (end 189.954 40.64) (layer Edge.Cuts) (width 0.05) (tstamp 5CFA92C7))
@@ -734,7 +734,7 @@
   )
   (gr_line (start 89.954 76.2) (end 89.954 111.76) (layer Edge.Cuts) (width 0.05) (tstamp 5CF7732B))
   (gr_line (start 107.95 76.2) (end 89.954 76.2) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 189.954 76.2) (end 189.954 99.26) (layer Edge.Cuts) (width 0.05) (tstamp 5CF77329))
+  (gr_line (start 189.954 76.2) (end 189.954 97.26) (layer Edge.Cuts) (width 0.05) (tstamp 5CF77329))
   (gr_line (start 165.735 76.2) (end 189.954 76.2) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 147.9735 111.76) (end 89.954 111.76) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 132.461 76.2) (end 165.735 76.2) (layer Edge.Cuts) (width 0.05))
