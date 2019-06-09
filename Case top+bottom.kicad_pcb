@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 24)
+    (drawings 26)
     (tracks 0)
     (zones 0)
     (modules 11)
@@ -102,7 +102,7 @@
   )
 
   (module PSX_BREAKOUT:PSX_LOGO (layer F.Cu) (tedit 5CFA95BF) (tstamp 5CFAE821)
-    (at 139.954 91.44)
+    (at 139.954 88.44)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -693,6 +693,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 147.9735 99.26) (end 147.9735 111.76) (layer Edge.Cuts) (width 0.05) (tstamp 5CFC580C))
+  (gr_line (start 189.954 99.26) (end 147.9735 99.26) (layer Edge.Cuts) (width 0.05) (tstamp 5CFC57A6))
   (gr_line (start 132.461 40.64) (end 107.95 40.64) (layer Edge.Cuts) (width 0.05) (tstamp 5CFA92C9))
   (gr_line (start 132.461 40.64) (end 165.735 40.64) (layer Edge.Cuts) (width 0.05) (tstamp 5CFA92C8))
   (gr_line (start 165.735 40.64) (end 189.954 40.64) (layer Edge.Cuts) (width 0.05) (tstamp 5CFA92C7))
@@ -703,7 +705,7 @@
   (gr_text "Licensed under CERN OHL 1.2\nhttps://github.com/arithmaldor" (at 138.684 53.213) (layer B.SilkS)
     (effects (font (size 2 2) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "PSX Breakout 1.0\nTinkerplunk.com" (at 139.192 106.807) (layer F.SilkS)
+  (gr_text "PSX Breakout 1.0\nTinkerplunk.com" (at 118.96375 106.807) (layer F.SilkS)
     (effects (font (size 3 3) (thickness 0.15)))
   )
   (gr_text 75Ω (at 110.236 77.724) (layer F.SilkS) (tstamp 5CFA9335)
@@ -732,9 +734,9 @@
   )
   (gr_line (start 89.954 76.2) (end 89.954 111.76) (layer Edge.Cuts) (width 0.05) (tstamp 5CF7732B))
   (gr_line (start 107.95 76.2) (end 89.954 76.2) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 189.954 76.2) (end 189.954 111.76) (layer Edge.Cuts) (width 0.05) (tstamp 5CF77329))
+  (gr_line (start 189.954 76.2) (end 189.954 99.26) (layer Edge.Cuts) (width 0.05) (tstamp 5CF77329))
   (gr_line (start 165.735 76.2) (end 189.954 76.2) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 189.954 111.76) (end 89.954 111.76) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 147.9735 111.76) (end 89.954 111.76) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 132.461 76.2) (end 165.735 76.2) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 132.461 76.2) (end 107.95 76.2) (layer Edge.Cuts) (width 0.05))
 
