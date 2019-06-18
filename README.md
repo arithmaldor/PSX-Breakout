@@ -27,6 +27,9 @@ These switches on the left and right of the board determine which sync signal go
 ## TTL/75 ohm Jumper
 Located at the back of the board, this jumper allows you to select whether the CSYNC signal is TTL or 75 ohm. This affects both the HD15 and RCA connectors.
 
+#Parts
+Refer to BOM.csv for all components and Hardware_BOM.csv for screws and standoffs. PSX Breakout Stack Diagram is a drawing to illustrate construction.
+
 # Changelog
 
 ## 1.0
