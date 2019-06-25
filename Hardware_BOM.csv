@@ -1,0 +1,12 @@
+Console,Screw Length (A),Spacer Length (B),BTM Screw (A),BTM Spacer (B),Case Spacer ( C),TOP Spacer (D),TOP Screw (E)
+PS1,"19,[20],21",8,https://www.mcmaster.com/92005A128,https://www.mcmaster.com/93657A211,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/95947A008,https://www.mcmaster.com/92005A118
+PS one,"14,15,[16]",3,https://www.mcmaster.com/92005A126,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/95947A008,https://www.mcmaster.com/92005A118
+PS2,"15,[16],17",4,https://www.mcmaster.com/92005A126,https://www.mcmaster.com/93657A205,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/95947A008,https://www.mcmaster.com/92005A118
+PS2 Slim,"14,15,[16]",3,https://www.mcmaster.com/92005A126,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/95947A008,https://www.mcmaster.com/92005A118
+PS3,"[40],41,42,43",30,https://www.mcmaster.com/92005A135,https://www.mcmaster.com/93657A230,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/95947A008,https://www.mcmaster.com/92005A118
+PS3 Slim,"[16],17,18",6,https://www.mcmaster.com/92005A126,https://www.mcmaster.com/93657A209,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/95947A008,https://www.mcmaster.com/92005A118
+PS3 Super Slim,"14,15,[16]",4,https://www.mcmaster.com/92005A126,https://www.mcmaster.com/93657A205,https://www.mcmaster.com/93657A203,https://www.mcmaster.com/95947A008,https://www.mcmaster.com/92005A118
+,,,,,,,
+"C,D, and E are identical for all models.",,,,,,,
+"All possible screw lengths are listed, linked screw is in brackets",,,,,,,
+"Foot, 2mm thickness for screw",https://www.amazon.com/gp/product/B07MBN4WSR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1,,,,,,
