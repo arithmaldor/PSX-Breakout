@@ -1,4 +1,4 @@
-16401102631810306
+16402664633328033
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72610,6 +72610,13 @@ SCART_F_VERT
 0
 21
 21
+Tinkerplunk
+SNES_PLUG
+
+
+0
+12
+12
 Tinkerplunk
 VGA
 15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 8.35mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 10.889999999999999mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
