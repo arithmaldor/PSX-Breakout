@@ -911,8 +911,8 @@
   (via (at 140.1 80.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 135.1 81) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 130.2 80.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
-  (via (at 120 80.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
-  (via (at 115 80.9) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
+  (via (at 120 82.4) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
+  (via (at 115.1 84.6) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 108.5 80.1) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 96.1 87.1) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 171.9 88.6) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
@@ -1884,6 +1884,21 @@
         (xy 183.282795 71.709744) (xy 183.204774 71.898102) (xy 183.165 72.098061) (xy 183.165 72.160198) (xy 182.96 72.365198)
         (xy 182.96 64.114801) (xy 183.086729 63.988072) (xy 183.670908 63.988072) (xy 183.79539 63.975812) (xy 183.915088 63.939502)
         (xy 184.002726 63.892658)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 124.8 81.3) (xy 124.8 76) (xy 114.2 76) (xy 114.2 81.3)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 124.673 81.173) (xy 114.327 81.173) (xy 114.327 76.127) (xy 124.673 76.127)
       )
     )
   )
