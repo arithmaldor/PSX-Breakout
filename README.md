@@ -20,6 +20,6 @@ Plug in and go.
 ## HD15 SYNC Selector 
 Located on the back left of the board, this switch determines which signal goes to the HD15 port - CVBS or LUMA.
 
-#Parts
+# Parts
 Refer to BOM.csv for all components. For the support leg, use any appropriately long brass/metal m3 standoff/pillar and screw a rubber foot to the bottom. Solder a 5mm spring clamp to the bottom of the board to adjust the height.
 For the phat PS3, standoffs may need to be screwed into each other (stacked) to reach the needed height.
